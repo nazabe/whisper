@@ -1,0 +1,126 @@
+{
+  "estimated_duration_min": 11.03,
+  "speech_metrics": {
+    "total_words": 1276,
+    "words_per_minute": 115.7,
+    "avg_sentence_length_words": 14.8
+  },
+  "question_metrics": {
+    "total_questions": 6,
+    "open_questions": 1,
+    "closed_questions": 5,
+    "unanswered_questions": null,
+    "repeated_questions": 0,
+    "open_questions_list": [
+      "¿Qué tal?"
+    ]
+  },
+  "vocabulary_metrics": {
+    "unique_words": 432,
+    "lexical_diversity_pct": 33.9,
+    "filler_words": {
+      "bueno": 8
+    }
+  },
+  "structure_metrics": {
+    "topic_blocks": [
+      {
+        "topic": "Introducción y WebView",
+        "start_min": 0.0,
+        "end_min": 1.66,
+        "duration_min": 1.66
+      },
+      {
+        "topic": "Archivos de configuración y Android Manifest",
+        "start_min": 3.61,
+        "end_min": 5.05,
+        "duration_min": 1.44
+      },
+      {
+        "topic": "Componentes de Android y Kotlin",
+        "start_min": 5.05,
+        "end_min": 7.0,
+        "duration_min": 1.95
+      },
+      {
+        "topic": "Experiencia con projector y APK Java",
+        "start_min": 7.0,
+        "end_min": 9.23,
+        "duration_min": 2.23
+      },
+      {
+        "topic": "Digresión sobre prevector y juegos",
+        "start_min": 9.25,
+        "end_min": 11.03,
+        "duration_min": 1.78
+      }
+    ],
+    "digressions": 1,
+    "examples_mentioned": 10,
+    "analogies_used": 2
+  },
+  "semantic_metrics": {
+    "concepts_mentioned": [
+      "WebView",
+      "Android",
+      "Java",
+      "Kotlin",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Android Manifest",
+      "XML",
+      "Activity",
+      "Service",
+      "Broadcast",
+      "APK",
+      "HDMI",
+      "USB",
+      "ROM",
+      "emulador",
+      "sistema operativo",
+      "lenguaje de programación",
+      "aplicación nativa",
+      "permisos",
+      "componentes",
+      "Oracle",
+      "Google",
+      "prevector",
+      "Netflix",
+      "pendrive"
+    ],
+    "concepts_defined": [
+      "WebView",
+      "Kotlin",
+      "Android Manifest"
+    ],
+    "concepts_only_mentioned": [
+      "Android",
+      "Java",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "XML",
+      "Activity",
+      "Service",
+      "Broadcast",
+      "APK",
+      "HDMI",
+      "USB",
+      "ROM",
+      "emulador",
+      "sistema operativo",
+      "lenguaje de programación",
+      "aplicación nativa",
+      "permisos",
+      "componentes",
+      "Oracle",
+      "Google",
+      "prevector",
+      "Netflix",
+      "pendrive"
+    ],
+    "comprehension_questions": 1,
+    "comprehension_confirmations": null
+  }
+}

@@ -1,0 +1,30 @@
+[project]
+name = "whisper"
+version = "0.1.0"
+description = "FastAPI microservice for audio transcription"
+readme = "README.md"
+authors = [
+    { name = "nazareno", email = "nazarenobeauvais@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    # faster-whisper 1.2.1 calls av.open(metadata_errors=...), removed in PyAV 19.
+    "av<19",
+    "fastapi[standard]>=0.147.0",
+    "faster-whisper>=1.2.1",
+    "pydantic-settings>=2.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.24.0",
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+pythonpath = ["."]
+markers = [
+    "integration: requires a real Whisper model and audio fixture",
+]

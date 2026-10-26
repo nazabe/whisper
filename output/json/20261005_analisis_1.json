@@ -1,0 +1,148 @@
+{
+  "estimated_duration_min": 7.83,
+  "speech_metrics": {
+    "total_words": 1138,
+    "words_per_minute": 145.3,
+    "avg_sentence_length_words": 17.0
+  },
+  "question_metrics": {
+    "total_questions": 8,
+    "open_questions": 6,
+    "closed_questions": 1,
+    "unanswered_questions": null,
+    "repeated_questions": 1,
+    "open_questions_list": [
+      "¿de qué nos sirve texto?",
+      "¿De qué nos sirve?",
+      "¿Qué podemos hacer?",
+      "¿Cómo se usa la inteligencia local?",
+      "¿En qué cenarios tiene el sentido de implementar la inteligencia artificial?",
+      "¿Y en qué otros casos no?"
+    ]
+  },
+  "vocabulary_metrics": {
+    "unique_words": 373,
+    "lexical_diversity_pct": 32.8,
+    "filler_words": {
+      "simplemente": 5,
+      "etcétera": 3
+    }
+  },
+  "structure_metrics": {
+    "topic_blocks": [
+      {
+        "topic": "Introducción y decisión de grabar las clases",
+        "start_min": 0.0,
+        "end_min": 0.78,
+        "duration_min": 0.78
+      },
+      {
+        "topic": "Propósito de transcribir: datos, información y autoconocimiento",
+        "start_min": 0.78,
+        "end_min": 3.8,
+        "duration_min": 3.02
+      },
+      {
+        "topic": "Anécdota sobre Lucas Toledo y el uso profesional de IA",
+        "start_min": 3.8,
+        "end_min": 5.17,
+        "duration_min": 1.37
+      },
+      {
+        "topic": "Reflexión docente y aprendizaje personal",
+        "start_min": 5.17,
+        "end_min": 6.73,
+        "duration_min": 1.56
+      },
+      {
+        "topic": "Herramienta Whisper: conversión de audio a texto y demostración",
+        "start_min": 6.73,
+        "end_min": 7.83,
+        "duration_min": 1.1
+      }
+    ],
+    "digressions": 1,
+    "examples_mentioned": 5,
+    "analogies_used": 1
+  },
+  "semantic_metrics": {
+    "concepts_mentioned": [
+      "inteligencia artificial",
+      "transcripción de audio a texto",
+      "Whisper",
+      "OpenAI",
+      "chat GPT",
+      "datos",
+      "información",
+      "análisis de texto",
+      "grabación de clases",
+      "flujo de trabajo",
+      "automatización",
+      "palabras por minuto",
+      "términos diferentes",
+      "claridad al hablar",
+      "oraciones",
+      "conceptos sin definir",
+      "retroalimentación",
+      "IA con sentido",
+      "startups",
+      "marketing digital",
+      "salud mental",
+      "código Python",
+      "markdown",
+      "MP3",
+      "espejo",
+      "autoconocimiento",
+      "comunicación",
+      "modulación de voz",
+      "control de voz",
+      "docencia",
+      "egoísmo",
+      "aprendizaje",
+      "capacitación",
+      "prueba en tiempo real",
+      "Ubuntu"
+    ],
+    "concepts_defined": [
+      "Whisper",
+      "OpenAI",
+      "IA con sentido"
+    ],
+    "concepts_only_mentioned": [
+      "inteligencia artificial",
+      "transcripción de audio a texto",
+      "chat GPT",
+      "datos",
+      "información",
+      "análisis de texto",
+      "grabación de clases",
+      "flujo de trabajo",
+      "automatización",
+      "palabras por minuto",
+      "términos diferentes",
+      "claridad al hablar",
+      "oraciones",
+      "conceptos sin definir",
+      "retroalimentación",
+      "startups",
+      "marketing digital",
+      "salud mental",
+      "código Python",
+      "markdown",
+      "MP3",
+      "espejo",
+      "autoconocimiento",
+      "comunicación",
+      "modulación de voz",
+      "control de voz",
+      "docencia",
+      "egoísmo",
+      "aprendizaje",
+      "capacitación",
+      "prueba en tiempo real",
+      "Ubuntu"
+    ],
+    "comprehension_questions": 0,
+    "comprehension_confirmations": null
+  }
+}
