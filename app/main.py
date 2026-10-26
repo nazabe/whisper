@@ -16,20 +16,9 @@ from .transcriber import TranscriptionError, WhisperTranscriber
 logger = logging.getLogger(__name__)
 
 CHUNK_SIZE = 1024 * 1024
-ALLOWED_CONTENT_TYPES = {
-    "audio/mpeg",
-    "audio/mp3",
-    "audio/wav",
-    "audio/x-wav",
-    "audio/webm",
-    "audio/ogg",
-    "audio/mp4",
-    "audio/x-m4a",
-    "video/webm",
-}
+ALLOWED_CONTENT_TYPES = { "audio/mp3" }
 
 router = APIRouter()
-
 
 def _resolve_language(requested: str | None, settings: Settings) -> str | None:
     if requested is not None:
